@@ -1,0 +1,24 @@
+{
+    "name": "wtc/module-customerimport",
+    "description": "Import customer through command line",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Dipesh More",
+            "email": "dipeshmore.890@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/product-community-edition": "2.4.6"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wtc\\CustomerImport\\": ""
+        }
+    }
+}
